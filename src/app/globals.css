@@ -5,6 +5,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --tomato: 4, 100%, 67%;
+  --dark-slate-gray: 234, 29%, 20%;
+  --charcoal-gray: 235, 18%, 26%;
+  --grey: 231, 7%, 60%;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,3 +24,14 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* ### Primary
+
+- Tomato: hsl(4, 100%, 67%)
+
+### Neutral
+
+- Dark Slate Grey: hsl(234, 29%, 20%)
+- Charcoal Grey: hsl(235, 18%, 26%)
+- Grey: hsl(231, 7%, 60%)
+- White: hsl(0, 0%, 100%) */
